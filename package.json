@@ -6,13 +6,15 @@
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "prettier:check": "prettier --config .prettierrc --check \"src/**/*.{js,ts,css,html}\" --write"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "husky": "^8.0.2",
+    "prettier": "^2.8.0",
     "vitepress": "^1.0.0-alpha.29"
   }
 }
