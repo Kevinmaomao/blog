@@ -1,0 +1,1 @@
+>  无论是使用git命令commt，还是用vscode的commit按钮， prettier和eslint的校验和修复功能都会运行
